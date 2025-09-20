@@ -1,52 +1,54 @@
-# Analysis-Over-weather-of-5-near-Cities-In-iran-
+# 🌍 Climate Data Analysis Project
 
-
-# 🌍 پروژه تحلیل داده‌های اقلیمی  
-
-این پروژه با هدف بررسی و مقایسه تغییرات اقلیمی در چند شهر ایران طراحی شده است. داده‌های مربوط به **دما، بارش و مدت زمان روز** طی سال‌های مختلف جمع‌آوری، پاک‌سازی و سپس تحلیل شده‌اند. نتایج به شکل نمودارها و گراف‌ها ارائه می‌شوند تا روند تغییرات آب‌وهوایی شهرها بهتر درک شود.  
-
----
-
-## 🏙 شهرهای مورد بررسی  
-در این پروژه، داده‌های ۵ شهر زیر تحلیل شده‌اند:  
-
-1. **تهران**  
-   - تغییرات دما در طول سال‌ها  
-   - میانگین بارش سالانه  
-   - مقایسه بارش با مدت زمان روز  
-
-2. **کرج**  
-   - روند تغییرات دمای سالانه  
-   - بررسی میانگین بارش  
-   - تحلیل رابطه‌ی بارش و مدت زمان روز  
-
-3. **سمنان**  
-   - تغییرات دما در بازه‌های زمانی مختلف  
-   - مقایسه میانگین بارش با سایر شهرها  
-   - تحلیل روزهای آفتابی و مدت زمان روز  
-
-4. **قم**  
-   - نمودار تغییرات دمای سالانه  
-   - بررسی بارش در دوره‌های مختلف  
-   - مقایسه بارش و نور روز  
-
-5. **ساوه**  
-   - بررسی تغییرات دما طی سال‌ها  
-   - تحلیل بارش سالانه  
-   - مقایسه بارش با مدت زمان روز  
+This project focuses on **analyzing and comparing climate data** from five major cities in Iran:  
+**Tehran, Karaj, Semnan, Saveh, and Qom.**  
+The main objective is to study long-term **temperature trends, rainfall averages, and the relationship between precipitation and daylight duration.**
 
 ---
 
-## ✨ ویژگی‌های پروژه  
-- پاک‌سازی و آماده‌سازی داده‌ها (Data Cleaning)  
-- ترسیم نقشه‌های مقایسه‌ای اقلیم شهری  
-- نمودارهای خطی و ستونی برای نمایش روند تغییرات  
-- مقایسه داده‌ها میان ۵ شهر منتخب  
+## 🏙 Cities Analyzed
+
+1. **Tehran**  
+   - Temperature variations across different years  
+   - Average annual rainfall  
+   - Comparison between rainfall and daylight duration  
+
+2. **Karaj**  
+   - Yearly temperature trends  
+   - Average rainfall analysis  
+   - Relationship between precipitation and daylight duration  
+
+3. **Semnan**  
+   - Long-term temperature changes  
+   - Rainfall statistics compared with other cities  
+   - Daylight duration vs. rainfall correlation  
+
+4. **Saveh**  
+   - Temperature fluctuations over the years  
+   - Average annual rainfall  
+   - Comparative analysis with nearby cities  
+
+5. **Qom**  
+   - Annual temperature changes  
+   - Rainfall distribution over the years  
+   - Rainfall vs. daylight duration analysis  
 
 ---
 
-## ⚙️ پیش‌نیازها  
-برای اجرای پروژه نیاز به نصب کتابخانه‌های زیر در Python دارید:  
+## ✨ Features
+- Data cleaning and preprocessing  
+- Climate comparison between five Iranian cities  
+- Visualization of climate indicators:  
+  - Temperature trends  
+  - Average annual rainfall  
+  - Rainfall vs. daylight duration  
+- City-level and cross-city comparative analysis  
+
+---
+
+## ⚙️ Requirements
+
+Install the required Python libraries before running the project:
 
 ```bash
 pip install pandas numpy matplotlib seaborn
